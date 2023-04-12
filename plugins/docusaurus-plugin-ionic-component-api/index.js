@@ -5,9 +5,15 @@ module.exports = function (context, options) {
     name: 'docusaurus-plugin-ionic-component-api',
     async loadContent() {
       // Finds the plugin options for @docusaurus/plugin-content-docs
-      const docsPluginOptions = context.siteConfig.plugins.find(
-        (plugin) => Array.isArray(plugin) && plugin[0] === '@docusaurus/plugin-content-docs'
-      )[1];
+      const docsPluginOptions = context.siteConfig.plugins.find((plugin) => {
+        if (Array.isArray(plugin) && plugin[0] === '@docusaurus/plugin-content-docs') {
+          if (plugin[1].id === 'api') {
+            return true;
+          }
+          return false;
+        }
+        return false;
+      })[1];
 
       const data = [];
       const currentVersion = docsPluginOptions.versions.current;

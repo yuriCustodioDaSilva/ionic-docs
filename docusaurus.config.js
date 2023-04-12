@@ -2,7 +2,7 @@ const path = require('path');
 const prismic = require('@prismicio/client');
 const fetch = require('node-fetch');
 
-const VERSIONS_JSON = require('./versions.json');
+const VERSIONS_JSON = require('./components_versions.json');
 
 const BASE_URL = '/docs';
 
@@ -79,12 +79,12 @@ module.exports = {
           label: 'Guide',
           position: 'left',
         },
-        {
-          type: 'doc',
-          docId: 'components',
-          label: 'Components',
-          position: 'left',
-        },
+        // {
+        //   type: 'doc',
+        //   docId: 'components',
+        //   label: 'Components',
+        //   position: 'left',
+        // },
         {
           type: 'doc',
           docId: 'cli',
@@ -281,11 +281,36 @@ module.exports = {
           return `https://github.com/ionic-team/ionic-docs/edit/main/${versionDocsDirPath}/${docPath}`;
         },
         exclude: ['README.md'],
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'api',
+        path: './components',
+        routeBasePath: 'api',
+        sidebarPath: require.resolve('./components/sidebars.js'),
         lastVersion: 'current',
         versions: {
           current: {
             label: 'v7',
           },
+          // v6: {
+          //   label: 'v6',
+          //   path: 'v6',
+          //   banner: 'none',
+          // },
+          // v5: {
+          //   label: 'v5',
+          //   path: 'v5',
+          //   banner: 'none',
+          // },
+        },
+        editUrl: ({ versionDocsDirPath, docPath, locale }) => {
+          if (locale != 'en') {
+            return 'https://crowdin.com/project/ionic-docs';
+          }
+          return `https://github.com/ionic-team/ionic-docs/edit/main/${versionDocsDirPath}/${docPath}`;
         },
       },
     ],
