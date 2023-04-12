@@ -105,6 +105,7 @@ module.exports = {
         },
         {
           type: 'docsVersionDropdown',
+          docsPluginId: 'api',
           position: 'right',
           dropdownItemsAfter: [
             { to: 'https://ionicframework.com/docs/v4/components', label: 'v4', target: '_blank' },
