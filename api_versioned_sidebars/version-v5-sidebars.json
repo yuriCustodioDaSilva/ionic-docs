@@ -1,0 +1,621 @@
+{
+  "version-v5/docs": [
+    {
+      "type": "doc",
+      "id": "version-v5/components"
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Action Sheet",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/action-sheet"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Alert",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/alert"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Badge",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/badge"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Button",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/button"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/ripple-effect"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Card",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/card"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/card-content"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/card-header"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/card-subtitle"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/card-title"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Checkbox",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/checkbox"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Chip",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/chip"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Content",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/app"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/content"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Date & Time Pickers",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/datetime"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/picker"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Floating Action Button",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/fab"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/fab-button"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/fab-list"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Grid",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/grid"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/col"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/row"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Infinite Scroll",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/infinite-scroll"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/infinite-scroll-content"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Icons",
+      "items": [
+        {
+          "type": "link",
+          "label": "ion-icon",
+          "href": "https://ionicons.com"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Input",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/input"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/textarea"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Item",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/item"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/item-divider"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/item-group"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/item-sliding"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/item-options"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/item-option"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/label"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/note"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "List",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/list"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/list-header"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/virtual-scroll"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Media",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/avatar"
+        },
+        {
+          "type": "link",
+          "label": "ion-icon",
+          "href": "https://ionicons.com"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/img"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/thumbnail"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Menu",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/menu"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/menu-button"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/menu-toggle"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/split-pane"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Modal",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/modal"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/backdrop"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Navigation",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/nav"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/nav-link"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Popover",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/popover"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Progress Indicators",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/loading"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/progress-bar"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/skeleton-text"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/spinner"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Radio",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/radio"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/radio-group"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Range",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/range"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Refresher",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/refresher"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/refresher-content"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Reorder",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/reorder"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/reorder-group"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Routing",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/router"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/router-link"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/router-outlet"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/route"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/route-redirect"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Searchbar",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/searchbar"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Segment",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/segment"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/segment-button"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Select",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/select"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/select-option"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Slides",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/slides"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/slide"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Tabs",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/tabs"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/tab"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/tab-bar"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/tab-button"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Toast",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/toast"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Toggle",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/toggle"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Toolbar",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/toolbar"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/header"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/footer"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/title"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/buttons"
+        },
+        {
+          "type": "doc",
+          "id": "version-v5/api/back-button"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Typography",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api/text"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Resources",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v5/api"
+        }
+      ]
+    }
+  ]
+}

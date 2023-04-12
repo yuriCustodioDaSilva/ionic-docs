@@ -2,7 +2,7 @@ const path = require('path');
 const prismic = require('@prismicio/client');
 const fetch = require('node-fetch');
 
-const VERSIONS_JSON = require('./components_versions.json');
+const VERSIONS_JSON = require('./api_versions.json');
 
 const BASE_URL = '/docs';
 
@@ -79,12 +79,13 @@ module.exports = {
           label: 'Guide',
           position: 'left',
         },
-        // {
-        //   type: 'doc',
-        //   docId: 'components',
-        //   label: 'Components',
-        //   position: 'left',
-        // },
+        {
+          type: 'doc',
+          docsPluginId: 'api',
+          docId: 'components',
+          label: 'Components',
+          position: 'left',
+        },
         {
           type: 'doc',
           docId: 'cli',
@@ -288,9 +289,9 @@ module.exports = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'api',
-        path: './components',
+        path: './api',
         routeBasePath: 'api',
-        sidebarPath: require.resolve('./components/sidebars.js'),
+        sidebarPath: require.resolve('./api/sidebars.js'),
         lastVersion: 'current',
         versions: {
           current: {
