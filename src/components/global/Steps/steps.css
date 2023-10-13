@@ -1,0 +1,49 @@
+:root {
+  --ionic-primary: #3880ff;
+  --body-background: #1d1d1f;
+  --container-background: #333336;
+  --container-color: #ebebed;
+}
+
+.steps {
+  display: flex;
+}
+
+/* TODO: this breaks other pages */
+article {
+  padding-right: 400px;
+}
+
+.code-container {
+  --ifm-pre-color: white;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 600px;
+  background: var(--container-background);
+
+  z-index: 99;
+}
+
+.code-container > * {
+  height: 100%;
+}
+
+/* TODO this is ugly */
+.code-container [class*=codeBlockContainer_] {
+  margin-top: 60px;
+}
+
+.code-container pre,
+.code-container [class*=codeBlockContainer_],
+.code-container .codeBlockContent_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+  height: 100%;
+}
+
+code[class*=language-],
+pre[class*=language-] {
+  background: none;
+}
