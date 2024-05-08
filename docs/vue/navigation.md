@@ -656,5 +656,5 @@ Vue Router ships with a configurable history mode. Let's look at the different o
 - `createMemoryHistory`: This option creates an in-memory based history. This is mainly used to handle server-side rendering (SSR).
 
 ## More Information
-
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 For more info on routing in Vue using Vue Router, check out their docs at http://router.vuejs.org/.
